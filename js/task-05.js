@@ -126,7 +126,7 @@ class Car {
         this.speed = obj.speed = 0;
           this._price = obj.price;
           this.maxSpeed = obj.maxSpeed;
-          this.isOn = obj.isOn;
+          this.isOn = obj.isOn = false;
           this.distance = obj.distance = 0;
         }
         get price() {
